@@ -1,1 +1,8 @@
 # IoTnodeWithGEOconnectivity
+
+This file contains the complementary material for the paper entitled "".
+These files are:
+- stl files of the components that are 3D printed
+- Python script
+- firmware of the control unit
+- CAD model for the antenna simulation inside the IoT node
