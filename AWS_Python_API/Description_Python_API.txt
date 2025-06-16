@@ -1,0 +1,14 @@
+Libraries used
+https://pypi.org/project/boto3/
+https://docs.python.org/3/library/base64.html
+https://numpy.org/doc/stable/license.html
+https://github.com/plotly/plotly.py/blob/main/LICENSE.txt
+https://github.com/pandas-dev/pandas/blob/main/LICENSE
+https://docs.python.org/3/library/time.html
+https://www.json.org/license.html
+https://github.com/matplotlib/matplotlib/blob/main/LICENSE/LICENSE
+https://projects.scipy.org/scipylib/license.html
+
+1- Start a communication with AWS, read and delete the messages in a queue: https://alexwlchan.net/2018/downloading-sqs-queues/
+2- Decode the messages according to the format used
+3- Store and plot the data contained in the messages
