@@ -1,8 +1,10 @@
 # IoTnodeWithGEOconnectivity
 
-This file contains the complementary material for the paper entitled "".
-These files are:
-- stl files of the components that are 3D printed
+This repository contains the complementary material for the paper entitled:
+"Internet of Things Node with Real-Time LoRa GEO Satellite Connectivity for Agrifood Chain Tracking in Remote Areas".
+
+The files contained in the repository are:
+- stl files of the 3D-printed components
+- data reported in the paper
 - description of the Python script used to download messages from Amazon Web Services
-- data depicted in the paper
-- firmware of the control unit
+- description of the firmware used for the microcontrller unit
