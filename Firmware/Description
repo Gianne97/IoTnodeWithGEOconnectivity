@@ -1,1 +1,26 @@
-This folder contains the firmware of the microcontroller unit.
+This file contains the firmware of the microcontroller unit.
+
+Libraries used:
+
+1. INA219 (Current sensor IC)
+https://github.com/thibeaux/STM32_INA219_Library
+
+2. LIS3DH (Accelerometer IC)
+https://github.com/jedp/LIS3DH_STM32_HAL
+
+3. AIR530 (GNSS module)
+https://github.com/kosma/minmea
+
+4. DHT22 (Temperature & Humidity sensor module)
+https://github.com/MYaqoobEmbedded/STM32-Tutorials/tree/master/Tutorial%2025%20-%20DHT22%20Temperature%20Sensor
+
+-----
+
+STM32 MCU firmware processing flow:
+
+1. The MCU initializes its core peripherals and the external sensor subsystem;
+2. The Radio Modem Unit 'Join' procedure is recalled, the RMU joined status is periodically monitored by the MCU;
+3. All the employed sensors in the subsystem are woken up and read sequentially;
+4. The whole sensor data is encoded, and the TX message packet is assembled;
+5. The Radio Modem Unit's 'Send' procedure is recalled, and the MCU checks for communication errors after this command is issued;
+6. The MCU waits for the next transmission cycle, and the sensor subsystem is placed into 'Sleep' mode during this waiting period.
