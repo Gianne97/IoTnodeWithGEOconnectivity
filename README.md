@@ -7,4 +7,4 @@ The files contained in the repository are:
 - stl files of the 3D-printed components
 - data reported in the paper
 - description of the Python script used to download messages from Amazon Web Services
-- description of the firmware used for the microcontrller unit
+- description of the firmware used for the microcontroller unit
